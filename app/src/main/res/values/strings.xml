@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My app</string>
+    <string name="app_name">Student SYS</string>
     <string name="name_no_student_data_available">Name: No student data available.</string>
     <string name="submit">Submit</string>
     <string name="major_optional">Major (optional)</string>
