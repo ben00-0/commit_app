@@ -9,8 +9,9 @@
         android:layout_height="?attr/actionBarSize"
         android:background="#4AABC5"
         android:elevation="4dp"
-        android:title="Studen SYS"
-        android:titleTextColor="@android:color/white" />
+        android:title="Student SYS"
+        android:titleTextColor="@android:color/white"
+        android:textAlignment="center"/>
 
     <FrameLayout
         android:id="@+id/fragment_container"
