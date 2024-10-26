@@ -12,7 +12,8 @@
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="49dp"
-        android:text="@string/name_no_student_data_available" />
+        android:text="@string/name_no_student_data_available"
+        android:text_size="bold" />
 
     <TextView
         android:id="@+id/tvGrade"
