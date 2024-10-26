@@ -4,8 +4,13 @@
     android:layout_height="match_parent">
     
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height=""
+        android:layout_height="?attr/actionBarSize"
+        android:background="#4AABC5"
+        android:elevation="4dp"
+        android:title="My App Bar"
+        android:titleTextColor="@android:color/white" />
 
     <FrameLayout
         android:id="@+id/fragment_container"
