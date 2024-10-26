@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etGrade"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:hint="Grade"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etMajor"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:hint="@string/major_optional" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="108dp"
+        android:layout_height="59dp"
+        android:text="@string/submit" />
+</LinearLayout>
