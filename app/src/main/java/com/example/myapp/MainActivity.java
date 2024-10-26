@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements DataEntryFragment
                     .commit();
         }
     }
-
+//njgftkc
     @Override
     public void onDataPass(Student student) {
         displayFragment.updateStudentInfo(student);
