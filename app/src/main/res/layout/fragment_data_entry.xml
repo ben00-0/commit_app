@@ -35,6 +35,6 @@
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="108dp"
-        android:layout_height="59dp"
+        android:layout_height="60dp"
         android:text="@string/submit" />
 </LinearLayout>
