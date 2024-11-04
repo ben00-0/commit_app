@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements DataEntryFragment
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Hide the default title to use the custom TextView title
+
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayShowTitleEnabled(false);
         }
