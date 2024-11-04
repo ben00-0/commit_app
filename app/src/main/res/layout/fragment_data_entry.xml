@@ -10,7 +10,7 @@
         android:id="@+id/etName"
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
-        android:layout_height="102dp"
+        android:layout_height="103dp"
         android:hint="Name" />
 
     <EditText
