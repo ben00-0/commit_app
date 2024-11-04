@@ -52,7 +52,7 @@ public class DataEntryFragment extends Fragment {
         int age = Integer.parseInt(ageStr);
         int grade = Integer.parseInt(gradeStr);
 
-        if (age <= 0 || grade < 0 || grade > 101) {
+        if (age <= 0 || grade < 0 || grade > 100) {
             Toast.makeText(getActivity(), "Please enter valid age and grade", Toast.LENGTH_SHORT).show();
             return;
         }
