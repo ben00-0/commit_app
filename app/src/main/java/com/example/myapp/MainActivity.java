@@ -2,6 +2,7 @@ package com.example.myapp;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity implements DataEntryFragment.OnDataPass {
     private DisplayFragment displayFragment;
@@ -11,6 +12,16 @@ public class MainActivity extends AppCompatActivity implements DataEntryFragment
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Initialize the Toolbar
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        // Hide the default title to use the custom TextView title
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
+        }
+
+        // Fragment initialization
         if (savedInstanceState == null) {
             displayFragment = new DisplayFragment();
             getSupportFragmentManager().beginTransaction()
