@@ -24,7 +24,7 @@
             android:textSize="20sp" />
     </androidx.appcompat.widget.Toolbar>
 
-    <!-- Fragment container for your fragments -->
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
