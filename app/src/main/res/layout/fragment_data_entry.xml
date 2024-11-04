@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="5dp"
     android:orientation="vertical"
     tools:ignore="ExtraText">
 
@@ -9,20 +10,20 @@
         android:id="@+id/etName"
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
-        android:layout_height="103dp"
+        android:layout_height="102dp"
         android:hint="Name" />
 
     <EditText
         android:id="@+id/etAge"
         android:layout_width="match_parent"
-        android:layout_height="91dp"
+        android:layout_height="92dp"
         android:hint="Age"
         android:inputType="number" />
 
     <EditText
         android:id="@+id/etGrade"
         android:layout_width="match_parent"
-        android:layout_height="86dp"
+        android:layout_height="80dp"
         android:hint="Grade"
         android:inputType="number" />
 
@@ -36,5 +37,6 @@
         android:id="@+id/btnSubmit"
         android:layout_width="108dp"
         android:layout_height="60dp"
+        android:backgroundTint="@color/black"
         android:text="@string/submit" />
 </LinearLayout>
