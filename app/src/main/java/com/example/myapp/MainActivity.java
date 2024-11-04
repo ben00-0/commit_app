@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity implements DataEntryFragment
             getSupportActionBar().setDisplayShowTitleEnabled(false);
         }
 
-        // Fragment initialization
         if (savedInstanceState == null) {
             displayFragment = new DisplayFragment();
             getSupportFragmentManager().beginTransaction()
